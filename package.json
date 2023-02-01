@@ -1,0 +1,20 @@
+{
+  "name": "uyuni",
+  "version": "1.0.0",
+  "description": "Salar Uyuni",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abrilvg/uyuni.git"
+  },
+  "author": "abrilvg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abrilvg/uyuni/issues"
+  },
+  "homepage": "https://github.com/abrilvg/uyuni#readme",
+  "dependencies": {}
+}
