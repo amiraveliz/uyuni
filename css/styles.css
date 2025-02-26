@@ -1,437 +1,445 @@
 * {
-    box-sizing: border-box;
-    color: #00535e;
+  box-sizing: border-box;
+  color: #00535e;
 }
 
 img {
-    vertical-align: middle;
+  vertical-align: middle;
 }
 
 body {
-    font-family: 'Roboto Condensed', sans-serif;
-    margin: 0;
+  font-family: "Roboto Condensed", sans-serif;
+  margin: 0;
+}
+
+.content {
+  max-width: 1600px;
+  margin: 0 auto;
 }
 
 header {
-    display: flex;
-    position: fixed;
-    height: 72px;
-    top: 0;
-    right: 0;
-    left: 0;
-    padding: 8px 28.5px;
-    background-color: white;
-    z-index: 10;
+  display: flex;
+  position: fixed;
+  height: 72px;
+  top: 0;
+  right: 0;
+  left: 0;
+  padding: 8px 28.5px;
+  background-color: white;
+  z-index: 10;
 }
 
 header .colapse-menu {
-    display: none;
+  display: none;
 }
 
 .logo {
-    display: flex;
-    align-items: center;
-    padding: 0 10px;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
 }
 .logo a {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 .logo img {
-    height: 100px;
-    margin: 0 2px;
+  height: 100px;
+  margin: 0 2px;
 }
 header .menu {
-    width: 100%;
-    margin: 0 10vw;
-    display: flex;
+  width: 100%;
+  margin: 0 10vw;
+  display: flex;
 }
 .menu ul {
-    display: inherit;
-    width: 100%;
-    justify-content: space-evenly;
-    padding: 0;
+  display: inherit;
+  width: 100%;
+  justify-content: space-evenly;
+  padding: 0;
 }
 .menu li {
-    list-style: none;
+  list-style: none;
+}
+.menu li a:hover {
+  color: #00535ea3;
 }
 header img {
-    height: 30px;
+  height: 30px;
 }
 header .search {
-    display: flex;
-    align-items: center;
-    margin: 0 10px;
+  display: flex;
+  align-items: center;
+  margin: 0 10px;
 }
 header a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .main {
-    margin-top: 72px;
-    position: relative;
-    background-image: url("../images/uyuni-salt.jpg");
-    background-repeat: no-repeat;
-    background-size: auto;
-    height: 700px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  margin-top: 72px;
+  position: relative;
+  background-image: url("../images/uyuni-salt.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-size: cover;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .main .sign h1 {
-    font-family: 'Caveat', cursive;
-    font-size: 250px;
-    margin: 0;
-    color: gold;
-    font-weight: 500;
-    text-align: center;
-    margin: 0 20px 0 0;
+  font-family: "Caveat", cursive;
+  font-size: 250px;
+  margin: 0;
+  color: gold;
+  font-weight: 500;
+  text-align: center;
+  margin: 0 20px 0 0;
 }
 
 .main .title {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .main .title h1 {
-    text-transform: uppercase;
-    font-size: 60px;
-    margin: 0;
-    text-align: center;
-    color: white;
-    text-shadow: 0px 0px 6px rgba(130, 128, 125, 1);
+  text-transform: uppercase;
+  font-size: 60px;
+  margin: 0;
+  text-align: center;
+  color: white;
+  text-shadow: 0px 0px 6px rgba(130, 128, 125, 1);
 }
 
 .discover {
-    background-color: #004165;
-    margin: 0 50px;
-    padding: 20px;
-    position: relative;
+  background-color: #004165;
+  padding: 20px;
+  position: relative;
 }
 
 .discover h1 {
-    color: white;
-    font-weight: 400;
-    font-size: 55px;
-    text-align: center;
-    margin: 25px 0;
+  color: white;
+  font-weight: 400;
+  font-size: 55px;
+  text-align: center;
+  margin: 25px 0;
 }
 
 .discover .row {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .discover .box {
-    margin: 20px;
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
+  margin: 20px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
 }
 
 .discover .box a {
-    display: inherit;
-    align-items: inherit;
-    justify-content: inherit;
+  display: inherit;
+  align-items: inherit;
+  justify-content: inherit;
 }
 
 .discover .box .text {
-    position: absolute;
-    text-align: center;
+  position: absolute;
+  text-align: center;
 }
 
 .discover .box img {
-    width: 350px;
+  width: 350px;
 }
 
-.discover .box .text h2, .discover .box .text p {
-    color: white;
-    text-transform: uppercase;
-    text-shadow: 0px 0px 6px rgba(130, 128, 125, 1);
+.discover .box .text h2,
+.discover .box .text p {
+  color: white;
+  text-transform: uppercase;
+  text-shadow: 0px 0px 6px rgba(130, 128, 125, 1);
 }
 
 .discover .box .text h2 {
-    font-size: x-large;
+  font-size: x-large;
 }
 
 .discover .box .text p {
-    font-size: large;
+  font-size: large;
 }
 
 .get-inspired {
-    position: relative;
+  position: relative;
 }
 
 .get-inspired img {
-    width: 100%;
-    height: 800px;
+  width: 100%;
+  height: 800px;
 }
 
 .get-inspired .description {
-    position: absolute;
-    padding: 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    height: 100%;
+  position: absolute;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100%;
 }
 
 .get-inspired .description h1 {
-    font-size: 50px;
-    color: white;
-    font-weight: 400;
-    text-shadow: 0px 0px 6px rgba(130, 128, 125, 1);
+  font-size: 50px;
+  color: white;
+  font-weight: 400;
+  text-shadow: 0px 0px 6px rgba(130, 128, 125, 1);
 }
 
 .get-inspired .description p {
-    font-size: x-large;
-    color: white;
-    text-shadow: 0px 0px 6px rgba(130, 128, 125, 1);
+  font-size: x-large;
+  color: white;
+  text-shadow: 0px 0px 6px rgba(130, 128, 125, 1);
 }
 
 .get-inspired .description button {
-    border-color: white;
-    background-color: transparent;
-    color: white;
-    border-style: solid;
-    height: 50px;
-    width: 200px;
-    font-size: large;
-    text-transform: uppercase;
-    font-weight: inherit;
-    text-shadow: 0px 0px 6px rgba(130, 128, 125, 1);
-    border-radius: 10px;
+  border-color: white;
+  background-color: transparent;
+  color: white;
+  border-style: solid;
+  height: 50px;
+  width: 200px;
+  font-size: large;
+  text-transform: uppercase;
+  font-weight: inherit;
+  text-shadow: 0px 0px 6px rgba(130, 128, 125, 1);
+  border-radius: 10px;
 }
 
 .get-inspired .description button:hover {
-    background-color:rgba(211, 211, 211, 0.5);
+  background-color: rgba(211, 211, 211, 0.5);
 }
 
 .information {
-    padding: 50px 100px;
-    display: flex;
+  padding: 50px 100px;
+  display: flex;
 }
 
 .information .column {
-    width: 33.3%;
-    display: flex;
-    flex-direction: column;
+  width: 33.3%;
+  display: flex;
+  flex-direction: column;
 }
 
 .information .box {
-    position: relative;
-    width: 100%;
-    height: 100%;
+  position: relative;
+  width: 100%;
+  height: 100%;
 }
 
 .information .box .text {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 35px;
-    height: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 35px;
+  height: 100%;
 }
 
 .information .box .text h1 {
-    font-size: xx-large;
+  font-size: xx-large;
 }
 .information .box .text p {
-    margin: 0;
-    font-size: x-large;
-    text-align: center;
+  margin: 0;
+  font-size: x-large;
+  text-align: center;
 }
 
 .information .box .shown {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-    position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
 }
 
 .information .box .shown img {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-    transition: all .5s;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  transition: all 0.5s ease-in-out;
 }
-.information .box .shown:hover img{
-    width: 110%;
-    height: 110%;
-    z-index: 1;
-    transition: all .5s;
+.information .box .shown:hover img {
+  scale: 1.05;
+  z-index: 2;
+  transition: all 0.5s ease-in-out;
 }
 
 .hidden img {
-    opacity: 0;
-    width: 100%;
+  opacity: 0;
+  width: 100%;
+  pointer-events: none;
 }
 
 .footer {
-    background-color: #004165;
-    width: 100%;
-    padding: 20px;
+  background-color: #004165;
+  width: 100%;
+  padding: 20px;
 }
 
 .footer .social {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    padding: 0 100px;
-    margin: 20px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 0 100px;
+  margin: 20px 0;
 }
 
 .footer .social img {
-    width: 40px;
+  width: 40px;
 }
 
 .footer p {
-    margin: 0;
-    font-size: x-small;
-    font-weight: 300;
+  margin: 0;
+  font-size: x-small;
+  font-weight: 300;
 }
 
 .footer h2 {
-    font-weight: 400;
+  font-weight: 400;
 }
 
 .footer .tourism {
-    display: block;
-    margin: 20px 0;
-    color: white;
-    font-size: small;
-    text-align: end;
+  display: block;
+  margin: 20px 0;
+  color: white;
+  font-size: small;
+  text-align: end;
 }
 
-.footer p, .footer h2, .footer strong {
-    color: white;
+.footer p,
+.footer h2,
+.footer strong {
+  color: white;
 }
 
 @media screen and (max-width: 1024px) {
-    header .menu {
-        margin: 0;
-    }
-    .information .box.description p {
-        font-size: large;
-    }
-    .main {
-        height: 580px;
-    }
-    .main .title h1 {
-        font-size: 50px;
-    }
-    .discover {
-        margin: 0;
-    }
-    .discover h1 {
-        font-size: 35px;
-    }
-    .discover .box img {
-        width: 42vw;
-    }
-    .information {
-        padding: 50px 50px;
-    }
-    .information .box h1 {
-        font-size: large;
-        margin: 5px 0;
-    }
-    .information .box .text {
-        padding: 20px;
-    }
-    .information .box.description p {
-        font-size: medium;
-    }
-    .footer h2 {
-        font-size: medium;
-    }
+  header .menu {
+    margin: 0;
+  }
+  .information .box.description p {
+    font-size: large;
+  }
+  .main {
+    height: 580px;
+  }
+  .main .title h1 {
+    font-size: 50px;
+  }
+  .discover h1 {
+    font-size: 35px;
+  }
+  .discover .box img {
+    width: 42vw;
+  }
+  .information {
+    padding: 50px 50px;
+  }
+  .information .box h1 {
+    font-size: large;
+    margin: 5px 0;
+  }
+  .information .box .text {
+    padding: 20px;
+  }
+  .information .box.description p {
+    font-size: medium;
+  }
+  .footer h2 {
+    font-size: medium;
+  }
 }
 
 @media screen and (max-width: 767px) {
-    .main .title h1 {
-        font-size: 40px;
-    }
-    .information {
-        padding: 0;
-    }
-    .information .box .text h1 {
-        font-size: x-large;
-    }
-    .information .box .text p {
-        font-size: medium;
-    }
+  .main .title h1 {
+    font-size: 40px;
+  }
+  .information {
+    padding: 0;
+  }
+  .information .box .text h1 {
+    font-size: x-large;
+  }
+  .information .box .text p {
+    font-size: medium;
+  }
 }
 
 @media screen and (max-width: 750px) {
-    header .menu {
-        visibility: hidden;
-    }
-    header .colapse-menu {
-        display: flex;
-        align-items: center;
-    }
+  header .menu {
+    visibility: hidden;
+  }
+  header .colapse-menu {
+    display: flex;
+    align-items: center;
+  }
 }
 
 @media screen and (max-width: 583px) {
-    .information .box .text h1 {
-        font-size: medium;
-        margin: 0;
-    }
-    .information .box .text p {
-        font-size: 14px;
-    }
-    .main .title h1 {
-        margin: 0 30px;
-    }
+  .information .box .text h1 {
+    font-size: medium;
+    margin: 0;
+  }
+  .information .box .text p {
+    font-size: 14px;
+  }
+  .main .title h1 {
+    margin: 0 30px;
+  }
 }
 
 @media screen and (max-width: 480px) {
-    .main .sign h1 {
-        font-size: 150px;
-    }
-    .main .title h1 {
-        font-size: 35px;
-    }
-    .discover h1 {
-        font-size: 27px;
-    }
-    .discover .box img {
-        width: 100vw;
-    }
-    .discover .box .text p {
-        font-size: x-large;
-    }
-    .discover .box .text h2 {
-        font-size: x-large;
-        margin-bottom: 50px;
-    }
-    .information {
-        flex-wrap: wrap;
-    }
-    .information .box .text h1 {
-        font-size: xx-large;
-        color: white;
-        background-color: rgba(130, 128, 125, 0.5);
-        text-shadow: 0px 0px 6px rgba(130, 128, 125, 1);
-    }
-    .information .box .text p {
-        font-size: x-large;
-        color: white;
-        background-color: rgba(130, 128, 125, 0.5);
-        text-shadow: 0px 0px 6px rgba(130, 128, 125, 1);
-    }
-    .information .column {
-        width: 100%;
-        position: relative;
-    }
-    .information .box.description {
-        position: absolute;
-        z-index: 2;
-    }
+  .main .sign h1 {
+    font-size: 150px;
+  }
+  .main .title h1 {
+    font-size: 35px;
+  }
+  .discover h1 {
+    font-size: 27px;
+  }
+  .discover .box img {
+    width: 100vw;
+  }
+  .discover .box .text p {
+    font-size: x-large;
+  }
+  .discover .box .text h2 {
+    font-size: x-large;
+    margin-bottom: 50px;
+  }
+  .information {
+    flex-wrap: wrap;
+  }
+  .information .box .text h1 {
+    font-size: xx-large;
+    color: white;
+    background-color: rgba(130, 128, 125, 0.5);
+    text-shadow: 0px 0px 6px rgba(130, 128, 125, 1);
+  }
+  .information .box .text p {
+    font-size: x-large;
+    color: white;
+    background-color: rgba(130, 128, 125, 0.5);
+    text-shadow: 0px 0px 6px rgba(130, 128, 125, 1);
+  }
+  .information .column {
+    width: 100%;
+    position: relative;
+  }
+  .information .box.description {
+    position: absolute;
+    z-index: 2;
+  }
 }
